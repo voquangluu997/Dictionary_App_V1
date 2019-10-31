@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ev" android:title="English - Vietnamese" android:icon="@drawable/av"/>
+    <item android:id="@+id/ee" android:title="English - English" android:icon="@drawable/aa"/>
+    <item android:id="@+id/ve" android:title="Vietnamese - English" android:icon="@drawable/va"/>
+    <item android:id="@+id/favourite" android:title="Favourite" android:icon="@drawable/favourite"/>
+    <item android:id="@+id/yourWords" android:title="Your Words" android:icon="@drawable/yourword"/>
+    <item android:id="@+id/comunicate" android:title="Comunicate" >
+        <menu>
+            <item android:id="@+id/share" android:title="Share" android:icon="@drawable/share"/>
+            <item android:id="@+id/help" android:title="Help" android:icon="@drawable/help" />
+        </menu>
+    </item>
+
+</menu>

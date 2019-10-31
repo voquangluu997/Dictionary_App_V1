@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#999966</color>
+    <color name="colorLight">#cccc99</color>
+    <color name="colorLittleLight">#9C9A69</color>
+    <color name="colorPrimaryLight">#666633</color>
+
+
+    <color name="colorPrimaryDark">#ffccff</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+</resources>

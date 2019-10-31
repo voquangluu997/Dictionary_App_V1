@@ -1,0 +1,64 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/corner"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+
+                />
+            <ImageButton
+
+                android:id="@+id/btnSpeak"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/microphone"
+                />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorLight"
+            />
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorLight"
+        app:itemTextColor="@color/colorPrimaryLight"
+        app:itemIconTint="@color/colorLittleLight"
+        app:menu="@menu/drawer_menu"
+        android:layout_gravity="start"
+
+        >
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

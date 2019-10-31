@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DictionaryV1</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="speech_prompt">Say something…</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+</resources>

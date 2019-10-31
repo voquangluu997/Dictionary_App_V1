@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner"
+
+    >
+
+    <TextView
+        android:id="@+id/tvWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= " tu tieng anh "
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/colorPrimaryLight"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= " nghia cua tu"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/colorPrimaryLight"
+        />
+
+
+
+</LinearLayout>
